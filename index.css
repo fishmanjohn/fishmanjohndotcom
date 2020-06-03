@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+   
+    
+  }
+  
+  html {
+    font-size: 62.5%;
+    
+  }
+  
+  html, body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    margin:0;
+    
+  }
+  
+  h1, h2, h3, h4, h5, p {
+    font-family: 'Oswald', sans-serif;
+    font: medium;
+  }
+h1{
+    font-size: 4rem ;
+}
+h2{
+font-size: 3rem;
+}
+p{
+ font-size: 1.8rem ;
+}
+a{
+    color:black;
+}
+
+  .navBar{
+      width: 100%;
+      height: 10rem;
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+      border-bottom: 3px solid black;
+  }
+  nav{
+      width: 48%;
+      display:flex;
+      justify-content: space-evenly;
+  }
+  nav a{
+    color:black;
+    font-size: 2.0rem;
+  }
+  .homeMain{
+      width:80%;
+      height:50rem;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin:0% 10%;
+  }
+  .workMain{
+    width:80%;
+    height:95rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0% 10%;
+ }
+ @media(max-width: 400px){
+     .workMain{
+         height:100rem;
+     }
+ }
+ .example{
+     width: 75%; 
+     border: 1px solid black;
+     padding: 2%;
+ }
+ .contactContent{
+     text-align: center;
+ }
