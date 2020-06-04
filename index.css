@@ -78,5 +78,13 @@ a{
      padding: 2%;
  }
  .contactContent{
-     text-align: center;
+    height:40rem;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: space-evenly;
  }
+ /* .contactForm{
+   
+   
+ } */
