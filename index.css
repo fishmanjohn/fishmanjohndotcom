@@ -52,11 +52,18 @@ a{
   }
   .homeMain{
       width:80%;
-      height:50rem;
+      height:93rem;
       display:flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-evenly;
       margin:0% 10%;
+      padding-bottom: 2rem;
+  }
+  .homeMain img{
+    /* height: 20rem; */
+    width: 45%;
+    border-radius: 5%;
   }
   .workMain{
     width:80%;
@@ -67,16 +74,92 @@ a{
     justify-content: space-evenly;
     margin:0% 10%;
  }
- @media(max-width: 400px){
-     .workMain{
-         height:100rem;
-     }
- }
+
  .example{
      width: 75%; 
      border: 1px solid black;
      padding: 2%;
  }
  .contactContent{
-     text-align: center;
+    height:70rem;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    margin:0% 10%;
  }
+ .contactform{
+    height:35rem;
+    width: 60%;
+    /* border: 3px dashed darkorange; */
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+ }
+
+ .contactform input {
+    width: 80%; 
+    height: 5rem;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+ }
+ .contactform textarea{
+    width: 80%; 
+    height: 10rem;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+ }
+ .contactform button{
+   width:20%;
+   height:2.5rem;
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   font-family: 'Oswald', sans-serif;
+ }
+
+ ::placeholder{
+   color:black;
+   font-family: 'Oswald', sans-serif;
+ }
+
+ @media(max-width: 550px){
+  .workMain{
+      height:125rem;  
+  }
+  .contactContent{
+    height: 80rem;
+  }
+  .contactform button{
+    width:50%;
+  }
+}
+@media(max-width: 360px){
+.workMain{
+   height:150rem;
+}
+.example{
+ width: 100%; 
+}
+.homeMain img{
+  display: none;
+}
+.contactform button{
+  width:50%;
+}
+.contactContent{
+  height:90rem;
+}
+}
+
+@media(min-width: 1700px){
+  .homeMain{
+    height:110rem;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+  }
+}
