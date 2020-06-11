@@ -140,7 +140,7 @@ a{
 }
 @media(max-width: 360px){
 .workMain{
-   height:165rem;
+   height:200rem;
 }
 .example{
  width: 100%; 
