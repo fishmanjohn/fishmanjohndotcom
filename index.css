@@ -139,21 +139,22 @@ a{
   }
 }
 @media(max-width: 360px){
-.workMain{
-   height:200rem;
-}
-.example{
- width: 100%; 
-}
-.homeMain img{
-  display: none;
-}
-.contactform button{
-  width:50%;
-}
-.contactContent{
-  height:90rem;
-}
+  .workMain{
+
+    height:200rem;
+  }
+  .example{
+  width: 100%; 
+  }
+  .homeMain img{
+    display: none;
+  }
+  .contactform button{
+    width:50%;
+  }
+  .contactContent{
+    height:90rem;
+  }
 }
 
 @media(min-width: 1700px){
